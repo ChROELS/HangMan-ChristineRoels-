@@ -12,7 +12,7 @@ public class DataReader implements DataProviderService {
     private String goal;
     private String conditionOfSuccess;
     private String amountOfGuessesRule;
-    private Random randomizedSelection = new Random();
+    private final Random randomizedSelection = new Random();
     private String wordToDiscover;
 
     public DataReader(){

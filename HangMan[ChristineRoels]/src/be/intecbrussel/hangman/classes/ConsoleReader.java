@@ -8,7 +8,7 @@ public class ConsoleReader implements InputService {
     private char userChoice;
     private String userName;
     private String userLetter;
-    private Scanner keyboard;
+    private final Scanner keyboard;
 
     public ConsoleReader() {
         userName = "";
